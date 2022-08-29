@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,31 +11,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d81f6d766d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div class="container">
-    <div class="panel">
-        <img src="./rock-paper-scissors-circle.png">
-        <h1>Rock | Paper | Scissors</h1>
-        <p>5 points to determine the winner!</p>
-        <h3 id ="result-text">Let's play!</h3>
-        <div class="score">
-            <div class="player-score">
-                <h1 id ='player-score-display'>0</h1>
+    <div class="container">
+        <div class="panel">
+            <img src="./rock-paper-scissors-circle.png">
+            <h1>Rock | Paper | Scissors</h1>
+            <p>5 points to determine the winner!</p>
+            <h3 id="result-text">Let's play!</h3>
+            <div class="score">
+                <div class="player-score">
+                    <h1 id='player-score-display'>0</h1>
                     <p>You</p>
-            </div>
-            <h1 id="colon">:</h1>
-            <div class="computer-score">
-                <h1 id="computer-score-display">0</h1>
+                </div>
+                <h1 id="colon">:</h1>
+                <div class="computer-score">
+                    <h1 id="computer-score-display">0</h1>
                     <p>Computer</p>
+                </div>
             </div>
+            <div class="buttons">
+                <button class="btn" id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button class="btn" id="paper"><i class="fa-solid fa-hand"></i></button>
+                <button class="btn" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+            </div>
+            <p class="after-round"></p>
         </div>
-        <div class="buttons">
-        <button class="btn" id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
-        <button class="btn" id="paper"><i class="fa-solid fa-hand"></i></button>
-        <button class="btn" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>   
     </div>
-    <p class="after-round"></p>    
-    </div>
-</div>
 </body>
+
 </html>
